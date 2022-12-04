@@ -1,0 +1,24 @@
+#include <stdio.h> 
+
+int main (){   
+  
+    int User,
+    sum = 0,
+    g = 9;  
+    printf("User Input: "); 
+    scanf("%d", & User );  
+    printf("----\n");
+    printf("Series = ");
+   
+    for(int i = 0; i < User; i++ ) {
+        sum = sum + g;   
+        if( i != 0 ) {     
+            printf(" + ");      
+            }     
+            printf("%d", g);   
+            g = g * 10 + 9;  
+            } 
+            printf("\nSum = %'d ", sum );
+           
+      return 0;
+  }
