@@ -19,4 +19,4 @@ int BinSearch( int *data, int n, int find ) {
 		pos++ ;
 	}
 	return pos ;
-}
+} // end function
