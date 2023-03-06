@@ -52,4 +52,4 @@ void merge( int *u, int m, int *v, int n, int *t ) {
 			j = j + 1 ;
 		}
 	}
-}
+}// end function
