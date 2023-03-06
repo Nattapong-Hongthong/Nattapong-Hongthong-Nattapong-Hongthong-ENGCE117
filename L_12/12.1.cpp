@@ -50,3 +50,4 @@ int *Dijkstra( int *L, int n ) {
 	return d ;
 }
 
+// end function
