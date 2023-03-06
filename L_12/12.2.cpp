@@ -38,3 +38,4 @@ int *KnapsackGreedy( int *w, int *v, int n, int wx ) {
 	}
 	return x ;
 }
+// end function
